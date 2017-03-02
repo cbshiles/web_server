@@ -2,18 +2,19 @@ var http = require('http')
 var fs = require('fs')
 
 function loadDomain(path){
-    var dom = {}
     console.log(path)
-    dom.path = path
-    dom.responder = require(path+"responder.js")
+    
+    var dom = {
+	subs: {},
+	methods: require(path+'responder.js').methods
+    }
 
-    var subs = fs.readdirSync(path+'subs/')
-    dom.subs = {}
+    var subDir = path+'subs/'
+    var subs = fs.readdirSync(subDir)
     for (var i=0; i<subs.length; i++)
-	dom.subs[subs[i]] = loadDomain(path+'subs/'+subs[i]+'/')
+	dom.subs[subs[i]] = loadDomain(subDir+subs[i]+'/')
 
     dom.route = function(req, res){
-	console.log(req.url)
 	if (req.url.length > 1){
 	    var subDom = dom.subs[req.url.pop()]
 	    if (typeof subDom == 'undefined') 
@@ -21,8 +22,10 @@ function loadDomain(path){
 	    else subDom.route(req, res)
 	} else {
 	    req.url = [path, req.url[0]]
-	    console.log(req.url)
-	    dom.responder.main(req, res)
+	    var func = dom.methods[req.method]
+	    if (typeof func == 'undefined')
+		res.end('?0? - Unsupported HTTP method')
+	    func(req, res)
 	}
     }
 	
@@ -30,11 +33,11 @@ function loadDomain(path){
 }
 
 function host(sitePath, port){
+    
     var root = loadDomain(sitePath+"domains/")
 
     function route(req, res){
-	req.url = req.url.substring(1).split("/")
-	console.log(req.url)
+	req.url = req.url.substring(1).split("/").reverse()
 	return root.route(req, res)
     }
 
