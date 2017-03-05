@@ -33,16 +33,23 @@ function stdHtml(path, base, req, res){
 
     var moldF = r+'.json'
     if (fs.existsSync(moldF)){
-	var mold = JSON.parse(fs.readFileSync(moldF, 'utf8'));
-	var provider = require(r+'.js')
-	res.end(combine(mold, provider))
+	fs.readFile(moldF, 'utf8', (err, data) => {
+	    if (err) res.end(err.toString())
+	    var mold = JSON.parse(data)
+	    var provider = require(r+'.js')
+	    res.end(combine(mold, provider))
+	})
     } else {
 	var htmlF = r+'.html'
 	if (fs.existsSync(htmlF))
-	    res.end(fs.readFileSync(htmlF, 'utf8'))
+	    fs.readFile(htmlF, 'utf8', (err, data) => {
+		if (err) res.end(err.toString())
+		res.end(data)
+	    })
 	else res.end("File not found.")
     }
 }
+module.exports.stdHtml = stdHtml
 
 function makeGet(htmlFn){
     return function(req, res){
@@ -60,7 +67,16 @@ function makeGet(htmlFn){
 	}
 
 	if (xten == 'html') htmlFn(path+'pages/', base, req, res)
-	else res.end("Got nothin else yet")
+	else {
+	    fs.readFile(path+'res/'+file,
+			function(err, data) { 
+			    if (err){
+				console.log(err)
+				res.end("Four Oh Four")
+			    }
+			    res.end(data)
+			})
+	}
     }
 }
 module.exports.makeGet = makeGet
