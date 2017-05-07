@@ -1,0 +1,88 @@
+/home/brenan/code/web/sites/community/domains/
+/home/brenan/code/web/sites/community/domains/subs/slack/
+Server running on 4201.
+<!DOCTYPE html >
+
+<html>
+<head> 
+<title>SLACK</title>
+<script type="text/javascript" src="jquery-3.1.1.js" > </script> 
+<script type="text/javascript">
+
+    function errFunc(err) {
+        console.log("Post error!");
+        console.log(err);
+    }
+
+function connectSuccess(){
+;//just do a refresh
+}
+
+function flip(str){
+	 var len = str.length
+	 for (var i=0; i<len/2; i++){
+	     // var tmp = str.get(i)
+	 }
+	 return str
+}
+
+function refine(){
+    var msg = '<div class="msg">'+$('#msg').val()+'</div>'
+    var brdr = '<br>~~~~~~~~~~~~~<br>'
+    return flip(msg)+flip(brdr)
+}
+
+$(document).on("click", "#transmit", function () {
+    $.ajax ({
+      type : 'POST', async : true,
+      error : errFunc, url : "post",
+      data : refine(), success : connectSuccess
+    })
+})
+
+</script>
+</head>
+
+<body>
+
+<div width="90%">
+	<div> <img src="Roof.png" height="200"  width="300"  >  </div>  
+	<div> <h1>Welcome to  the   House    of     Slack!     </h1>     
+	     <h8>Take your  shoes   off    and     enjoy      the       'AML        Proto-Syte'        </h8>        </div>        
+
+	<span> <img src="LBobdobbs.png"></span>
+	<span> <img src="RBobdobbs.png"></span>
+</div>
+
+
+<div width="80%">
+	duuuude
+ <!-- How to do scrollbar? --> 
+	</div> 
+	
+
+
+<div>
+<input type="text" id="msg" >  <button id="transmit">Transmit</button>
+</div>
+
+
+
+
+
+.
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+
+
+
