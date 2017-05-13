@@ -74,6 +74,10 @@ function makeGet(htmlFn){
 				console.log(err)
 				res.end("Four Oh Four")
 			    }
+
+			    if (xten == "css")
+				res.setHeader("Content-Type", "text/css");
+
 			    res.end(data)
 			})
 	}

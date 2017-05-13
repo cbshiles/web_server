@@ -1,5 +1,4 @@
-translator='/home/brenan/code/web/aml_translator'
-
+translator='/home/ec2-user/webAML/Community'
 for file in $1/aml/*.aml
 do
     base=`basename $file .aml`

@@ -1,0 +1,1429 @@
+/home/ec2-user/webAML/community_site/domains/
+/home/ec2-user/webAML/community_site/domains/subs/slack/
+Server running on 4200.
+/home/ec2-user/webAML/community_site/domains/
+/home/ec2-user/webAML/community_site/domains/subs/slack/
+Server running on 4200.
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/action_page.php?fname=yayay&lname=yaya'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/action_page.php?fname=yayay&lname=yaya' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+/home/ec2-user/webAML/community_site/domains/subs/slack/responder.js:94
+    return str.split('').reverse().join('')
+              ^
+
+TypeError: Cannot read property 'split' of undefined
+    at flip (/home/ec2-user/webAML/community_site/domains/subs/slack/responder.js:94:15)
+    at ReadFileContext.fs.readFile [as callback] (/home/ec2-user/webAML/community_site/domains/subs/slack/responder.js:102:47)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:366:13)
+/home/ec2-user/webAML/community_site/domains/
+/home/ec2-user/webAML/community_site/domains/subs/slack/
+Server running on 4200.
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/action_page.php?fname=what+the+&lname=fuck'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/action_page.php?fname=what+the+&lname=fuck' }
+/home/ec2-user/webAML/community_site/domains/
+/home/ec2-user/webAML/community_site/domains/subs/slack/
+Server running on 4200.
+/home/ec2-user/webAML/community_site/domains/
+/home/ec2-user/webAML/community_site/domains/subs/slack/
+Server running on 4200.
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/' }
+/home/ec2-user/webAML/web_server/host.js:28
+	    func(req, res)
+	    ^
+
+TypeError: func is not a function
+    at Object.dom.route (/home/ec2-user/webAML/web_server/host.js:28:6)
+    at Server.route (/home/ec2-user/webAML/web_server/host.js:41:14)
+    at emitTwo (events.js:106:13)
+    at Server.emit (events.js:191:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:546:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:99:23)
+/home/ec2-user/webAML/community_site/domains/
+/home/ec2-user/webAML/community_site/domains/subs/slack/
+Server running on 4200.
+/home/ec2-user/webAML/community_site/domains/
+/home/ec2-user/webAML/community_site/domains/subs/slack/
+Server running on 4200.
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/setup'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/setup' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+/home/ec2-user/webAML/web_server/host.js:28
+	    func(req, res)
+	    ^
+
+TypeError: func is not a function
+    at Object.dom.route (/home/ec2-user/webAML/web_server/host.js:28:6)
+    at Server.route (/home/ec2-user/webAML/web_server/host.js:41:14)
+    at emitTwo (events.js:106:13)
+    at Server.emit (events.js:191:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:546:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:99:23)
+/home/ec2-user/webAML/community_site/domains/
+/home/ec2-user/webAML/community_site/domains/subs/slack/
+Server running on 4200.
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/subs/slack/res/0'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/subs/slack/res/0' }
+/home/ec2-user/webAML/community_site/domains/
+/home/ec2-user/webAML/community_site/domains/subs/slack/
+Server running on 4200.
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/action_page.php?fname=free&lname=bird'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/action_page.php?fname=free&lname=bird' }
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/' }
+/home/ec2-user/webAML/web_server/host.js:28
+	    func(req, res)
+	    ^
+
+TypeError: func is not a function
+    at Object.dom.route (/home/ec2-user/webAML/web_server/host.js:28:6)
+    at Server.route (/home/ec2-user/webAML/web_server/host.js:41:14)
+    at emitTwo (events.js:106:13)
+    at Server.emit (events.js:191:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:546:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:99:23)
+Server running on 4200.
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/' }
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/hndUnblock.cgi'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/hndUnblock.cgi' }
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/' }
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/' }
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+Server running on 4200.
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+Server running on 4200.
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+Server running on 4200.
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+Server running on 4200.
+Server running on 4200.
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+Server running on 4200.
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+Server running on 4200.
+Server running on 4200.
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/' }
+Server running on 4200.
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+Server running on 4200.
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+Server running on 4200.
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+post
+[Function: post]
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+Server running on 4200.
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+post
+[Function: post]
+undefined
+post
+[Function: post]
+undefined
+post
+[Function: post]
+Server running on 4200.
+undefined
+post
+[Function: post]
+undefined
+post
+[Function: post]
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+undefined
+post
+[Function: post]
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+Server running on 4200.
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+post
+[Function: post]
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+Server running on 4200.
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/' }
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/' }
+Server running on 4200.
+undefined
+undefined
+/home/ec2-user/webAML/web_server/responderTools.js:78
+			    if (data.split('.')[1] == "css")
+			             ^
+
+TypeError: data.split is not a function
+    at /home/ec2-user/webAML/web_server/responderTools.js:78:17
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:446:3)
+Server running on 4200.
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+Server running on 4200.
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{ Error: ENOENT: no such file or directory, open '/home/ec2-user/webAML/community_site/domains/res/favicon.ico'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/webAML/community_site/domains/res/favicon.ico' }

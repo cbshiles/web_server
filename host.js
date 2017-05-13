@@ -2,7 +2,6 @@ var http = require('http')
 var fs = require('fs')
 
 function loadDomain(path){
-    console.log(path)
     
     var dom = {
 	subs: {},
@@ -15,17 +14,21 @@ function loadDomain(path){
 	dom.subs[subs[i]] = loadDomain(subDir+subs[i]+'/')
 
     dom.route = function(req, res){
-	if (req.url.length > 1){
+	if (req.url.length > 1){ //redirect to sub domain
 	    var subDom = dom.subs[req.url.pop()]
 	    if (typeof subDom == 'undefined') 
 		res.end("Out of bounds")
 	    else subDom.route(req, res)
-	} else {
+	} else { // actually load a page
+	    console.log(func)
+
 	    req.url = [path, req.url[0]]
 	    var func = dom.methods[req.method]
-	    if (typeof func == 'undefined')
+
+	    if (typeof func === 'undefined')
 		res.end('?0? - Unsupported HTTP method')
-	    func(req, res)
+	    else
+		func(req, res)
 	}
     }
 	
@@ -49,7 +52,4 @@ function host(sitePath, port){
     launch()
 }
 
-host("/home/brenan/code/web/sites/community/", 4201)
-
-
-	
+host("/home/ec2-user/webAML/community_site/", 4200)
