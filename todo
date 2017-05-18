@@ -1,0 +1,6 @@
+have default html methods (just get) be the default if there is no responder.js
+
+be on the lookout for Full path usage
+
+later:
+should get a better way to translate..

@@ -1,17 +1,23 @@
 var http = require('http')
 var fs = require('fs')
+var rTools = require('./responderTools')
 
 function loadDomain(path){
-    
+
+    var ownResponder = fs.existsSync(path+'responder.js')
     var dom = {
 	subs: {},
-	methods: require(path+'responder.js').methods
+	methods: (ownResponder ?
+		  require(path+'responder.js').methods :
+		  rTools.stdMethods)
     }
 
     var subDir = path+'subs/'
-    var subs = fs.readdirSync(subDir)
-    for (var i=0; i<subs.length; i++)
-	dom.subs[subs[i]] = loadDomain(subDir+subs[i]+'/')
+    if (fs.existsSync(subDir)){ //load sub dir if exists
+	var subs = fs.readdirSync(subDir)
+	for (var i=0; i<subs.length; i++)
+	    dom.subs[subs[i]] = loadDomain(subDir+subs[i]+'/')
+    }
 
     dom.route = function(req, res){
 	if (req.url.length > 1){ //redirect to sub domain
@@ -52,4 +58,4 @@ function host(sitePath, port){
     launch()
 }
 
-host("/home/ec2-user/webAML/community_site/", 4200)
+host("./community/", 4200)

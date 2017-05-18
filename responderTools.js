@@ -29,6 +29,7 @@ function combine(mold, provider){
 module.exports.combine = combine
 
 function stdHtml(path, base, req, res){
+    console.log(path)
     var r = path+base
 
     var moldF = r+'.json'
@@ -66,7 +67,16 @@ function makeGet(htmlFn){
 	    xten = file.substring(dot+1)
 	}
 
-	if (xten == 'html') htmlFn(path+'pages/', base, req, res)
+	
+	console.log(path)
+	console.log("ITS HERE")
+	console.log(base)
+
+	if (xten == '') {
+	    var z = (base == '')?path+'pages/':path+'subs/'+base+'/pages/'
+	    htmlFn(z, 'index', req, res)
+	}
+	else if (xten == 'html') htmlFn(path+'pages/', base, req, res)
 	else {
 	    fs.readFile(path+'res/'+file,
 			function(err, data) { 
@@ -86,9 +96,6 @@ function makeGet(htmlFn){
 module.exports.makeGet = makeGet
 
 var stdMethods = {
-    GET: makeGet(stdHtml),
-    POST: function(req, res){
-	res.end("bleh")
-    }
+    GET: makeGet(stdHtml)
 }
 module.exports.stdMethods = stdMethods
