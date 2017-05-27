@@ -2,6 +2,10 @@ var http = require('http')
 var fs = require('fs')
 var rTools = require('./responderTools')
 
+function logg(data){
+    console.log(data + ':~:' + new Date().toISOString())
+}
+
 function loadDomain(path){
 
     var ownResponder = fs.existsSync(path+'responder.js')
@@ -26,7 +30,6 @@ function loadDomain(path){
 		res.end("Out of bounds")
 	    else subDom.route(req, res)
 	} else { // actually load a page
-	    console.log(func)
 
 	    req.url = [path, req.url[0]]
 	    var func = dom.methods[req.method]
@@ -41,18 +44,28 @@ function loadDomain(path){
     return dom
 }
 
+
+function logRequest(req){
+    logg(req.url)
+}
+
+
 function host(sitePath, port){
     
     var root = loadDomain(sitePath+"domains/")
 
     function route(req, res){
+	logRequest(req)
+	if (req.url.substring(req.url.length-1) == "/"){
+	    req.url = req.url.substring(0, req.url.length-1)
+	} //change req.url from string to list
 	req.url = req.url.substring(1).split("/").reverse()
 	return root.route(req, res)
     }
 
     function launch(){
 	http.createServer(route).listen(port)
-	console.log('Server running on '+port+'.')
+	logg('Server running on '+port+'.')
     }
 
     launch()
