@@ -1,1 +1,1 @@
-nohup node host.js >> logs/nohup.out
+nohup node host.js >> logs/nohup.out&

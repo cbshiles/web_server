@@ -1,14 +1,18 @@
 have default html methods (just get) be the default if there is no responder.js
 
-be on the lookout for Full path usage
+Always make sure to use paths that are rooted (begin with a /) but don't reference the actual full url
 
 later:
 should get a better way to translate..
-going to a non existant css page causes a crash
-Strop server from crashing
 
-improve logs, too much garbage in em
+have some sort of schedule for checking logs
 
 maybe center I Ching stuff
 
 all the pages need work, but no rushLook at fix this shit . jpg on local
+
+responder.js's from different domains can have namespace conflicts - need to get rid of this porblem
+
+atm, once you need to catch a post, you need to have a responder in your domain. this is annoying and awkward ands not very standardized. ned to figure out how to simplify this process, probably beef up domain creations script as well/in conjunction with
+
+figure out a good way to have a wrapper for a large group of classes (with, say a link to the home page in top corner)(and jquery or somethin)

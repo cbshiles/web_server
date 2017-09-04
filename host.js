@@ -71,4 +71,8 @@ function host(sitePath, port){
     launch()
 }
 
-host("./community/", 4200)
+if (typeof process.argv[2] == 'undefined') 
+    port = 4200
+else
+    port = parseInt(process.argv[2])
+host("./community/", port)

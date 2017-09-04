@@ -80,6 +80,8 @@ function makeGet(htmlFn){
 			    } else {
 				if (xten == "css")
 				    res.setHeader("Content-Type", "text/css");
+				else
+				    res.setHeader("Content-Type", "text/plain");    
 				res.end(data)
 			    }
 			})
@@ -92,3 +94,4 @@ var stdMethods = {
     GET: makeGet(stdHtml)
 }
 module.exports.stdMethods = stdMethods
+module.exports.nrmGet = makeGet(stdHtml)
