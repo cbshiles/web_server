@@ -1,1 +1,2 @@
+kill `pgrep node`
 nohup node host.js >> logs/nohup.out&
