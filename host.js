@@ -1,11 +1,22 @@
 var http = require('http')
 var fs = require('fs')
-var rTools = require('./responderTools')
 
+//Global properties for easy access in modules
+config = require('./propReader').read(__dirname+'/config.prop')
+toolz = require('./responderTools')
+
+
+/*
+ * Log function, adds current time to the message
+ */
 function logg(data){
-    console.log(data + ':~:' + new Date().toISOString())
+    console.log(data + ' :~: ' + new Date().toISOString())
 }
 
+/*
+ * Recursive function to load a 'domain'.
+ * Can be called on root domain of website, and all subs will be loaded.
+ */
 function loadDomain(path){
 
     var ownResponder = fs.existsSync(path+'responder.js')
@@ -13,7 +24,7 @@ function loadDomain(path){
 	subs: {},
 	methods: (ownResponder ?
 		  require(path+'responder.js').methods :
-		  rTools.stdMethods)
+		  toolz.stdMethods)
     }
 
     var subDir = path+'subs/'
@@ -44,35 +55,29 @@ function loadDomain(path){
     return dom
 }
 
-
-function logRequest(req){
-    logg(req.url)
-}
-
-
+/*
+ * sitePath - path on file system to the root of the AML website
+ * port - port number the site is to be hosted on
+ */
 function host(sitePath, port){
     
     var root = loadDomain(sitePath+"domains/")
 
     function route(req, res){
-	logRequest(req)
+	logg(typeof res+' '+req.url)
+	// remove trailing slash
 	if (req.url.substring(req.url.length-1) == "/"){
 	    req.url = req.url.substring(0, req.url.length-1)
-	} //change req.url from string to list
+	}
+	//change req.url from string to list
 	req.url = req.url.substring(1).split("/").reverse()
 	return root.route(req, res)
     }
 
-    function launch(){
-	http.createServer(route).listen(port)
-	logg('Server running on '+port+'.')
-    }
-
-    launch()
+    http.createServer(route).listen(port)
+    logg('Server running on '+port+'.')
 }
 
-if (typeof process.argv[2] == 'undefined') 
-    port = 4200
-else
-    port = parseInt(process.argv[2])
-host("./community/", port)
+var defaultPort = 4200
+var port = (typeof process.argv[3] == 'undefined') ? defaultPort : parseInt(process.argv[3])
+host(process.argv[2], port)

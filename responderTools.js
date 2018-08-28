@@ -1,5 +1,10 @@
 var fs = require('fs')
 
+function getSnippet(name){
+    var snipDir = config['snippetDirectory']
+    return fs.readFileSync(snipDir+name+'.html')
+}
+
 function combine(mold, provider){
 
     var prov = provider.vars(hook)
@@ -17,7 +22,8 @@ function combine(mold, provider){
 	    if (isText){
 		ans += mld.texts[dex]
 	    } else {
-		ans += prov[mld.vars[dex]]()
+		var provFn = prov[mld.vars[dex]]
+		ans += provFn ? provFn() : getSnippet(mld.vars[dex])
 	    }
 	    isText = !isText
 	}
@@ -26,7 +32,11 @@ function combine(mold, provider){
 
     return dew(mold)
 }
-module.exports.combine = combine
+this.combine = combine
+
+function blankProvider(){ //yummy
+    return { vars: function(hook){ return {} } }
+}
 
 function stdHtml(path, base, req, res){
     var r = path+base
@@ -36,7 +46,10 @@ function stdHtml(path, base, req, res){
 	fs.readFile(moldF, 'utf8', (err, data) => {
 	    if (err) res.end(err.toString())
 	    var mold = JSON.parse(data)
-	    var provider = require(r+'.js')
+	    var provider = blankProvider()
+	    try { //If no matching javascript file, use blank provider [only match snippets]
+		provider = require(r+'.js')
+	    } catch(err){;}
 	    res.end(combine(mold, provider))
 	})
     } else {
@@ -49,7 +62,7 @@ function stdHtml(path, base, req, res){
 	else res.end("File not found.")
     }
 }
-module.exports.stdHtml = stdHtml
+this.stdHtml = stdHtml
 
 function makeGet(htmlFn){
     return function(req, res){
@@ -66,7 +79,7 @@ function makeGet(htmlFn){
 	    xten = file.substring(dot+1)
 	}
 
-	if (xten == '') {
+	if (xten == '') { //route requests w/o file extensions to index.html
 	    var z = (base == '')?path+'pages/':path+'subs/'+base+'/pages/'
 	    htmlFn(z, 'index', req, res)
 	}
@@ -88,10 +101,22 @@ function makeGet(htmlFn){
 	}
     }
 }
-module.exports.makeGet = makeGet
+this.makeGet = makeGet
 
 var stdMethods = {
     GET: makeGet(stdHtml)
 }
-module.exports.stdMethods = stdMethods
-module.exports.nrmGet = makeGet(stdHtml)
+this.stdMethods = stdMethods
+this.nrmGet = makeGet(stdHtml)
+
+this.DataGlobber = function(req){
+    this.data = ''
+    this.glob = function(d){
+	this.data += d
+	if (this.data.length > 1e5) { // FLOOD ATTACK OR FAULTY CLIENT, NUKE REQUEST
+	    req.connection.destroy();
+        }
+    }.bind(this)
+    req.on('data', this.glob)
+}
+

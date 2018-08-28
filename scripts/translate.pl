@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 use 5.010;
 use strict;
 use warnings;
@@ -13,8 +13,8 @@ sub arg{
     }
 }
 
-my $root = '/home/ec2-user/webAML/web_server/community/domains';
-my $path = $root; 
+my $root = '/home/brenan/webAML/web_server';
+my $path = $root.'/community/domains'; 
 
 if ($argSize > 0 ){
 my @steps = split('/', arg 0);
@@ -40,8 +40,10 @@ while (my $file = readdir(DIR)) {
 
     my $base = `basename $file .aml`;
     chomp $base;
-    my $output = `/home/ec2-user/webAML/web_server/translator/bin/go "$path/aml/$file"`;
+    my $output = `$root/translator/bin/go "$path/aml/$file"`;
 
+    print $output;
+    
     my $letter = substr($output, 0, 1);
     my $rest = substr($output, 1);
     my $xten = '';

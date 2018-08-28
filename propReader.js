@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-function readProperties(fname){
+function read(fname){
     var lines = fs.readFileSync(fname, 'utf8').split('\n')
     var obj = {}
     for (let i=0; i<lines.length; i++){
@@ -10,5 +10,4 @@ function readProperties(fname){
     return obj
 }
 
-module.exports.cfg = readProperties('config.p')
-
+this.read = read
