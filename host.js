@@ -5,7 +5,6 @@ var fs = require('fs')
 config = require('./propReader').read(__dirname+'/config.prop')
 toolz = require('./responderTools')
 
-
 /*
  * Log function, adds current time to the message
  */

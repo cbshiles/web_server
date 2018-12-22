@@ -1,6 +1,8 @@
-#!/usr/bin/env perl6
+#!/usr/local/bin/perl
 
-my $svrDir = '/home/brenan/webAML/web_server';
-my $r = shell 'kill `pgrep node`';
-shell "nohup node $svrDir/host.js $svrDir/community/ >> $svrDir/logs/nohup.out&";
+my $svrDir = '/home/brenan/web_server';
+my $webDir = '/home/brenan/community_site';
+my $cmd = 'kill `pgrep node`';
+my $r = `$cmd`;
+`nohup node $svrDir/host.js $webDir/ >> $svrDir/logs/nohup.out&`;
 print "Started.\n";

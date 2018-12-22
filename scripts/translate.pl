@@ -12,9 +12,9 @@ sub arg{
 	return $ARGV[$i];
     }
 }
-
-my $root = '/home/brenan/webAML/web_server';
-my $path = $root.'/community/domains'; 
+my $translatorRoot = '/home/brenan/AML-Translator';
+my $root = '/home/brenan/community_site';
+my $path = $root.'/domains'; 
 
 if ($argSize > 0 ){
 my @steps = split('/', arg 0);
@@ -40,7 +40,7 @@ while (my $file = readdir(DIR)) {
 
     my $base = `basename $file .aml`;
     chomp $base;
-    my $output = `$root/translator/bin/go "$path/aml/$file"`;
+    my $output = `$translatorRoot/bin/go "$path/aml/$file"`;
 
     print $output;
     
