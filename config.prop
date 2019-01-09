@@ -1,1 +1,2 @@
-snippetDirectory=/home/brenan/web_server/snips
+snippetDir=/home/brenan/web_server/snips
+requireDir=/home/brenan/web_server/node_modules
