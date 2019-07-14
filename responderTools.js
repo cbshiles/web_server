@@ -66,8 +66,8 @@ this.stdHtml = stdHtml
 
 function makeGet(htmlFn){
     return function(req, res){
-	var path = req.url[0]
-	var file = req.url[1]
+	var path = decodeURIComponent(req.url[0])
+	var file = decodeURIComponent(req.url[1])
 
 	var dot = file.lastIndexOf('.')
 	var base, xten
