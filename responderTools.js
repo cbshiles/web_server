@@ -69,6 +69,10 @@ function makeGet(htmlFn){
 	var path = decodeURIComponent(req.url[0])
 	var file = decodeURIComponent(req.url[1])
 
+	let j = file.lastIndexOf('?')
+	if (j > -1)
+	    file = file.substring(0, j)
+	
 	var dot = file.lastIndexOf('.')
 	var base, xten
 	if (dot == -1){
@@ -93,6 +97,8 @@ function makeGet(htmlFn){
 			    } else {
 				if (xten == "css")
 				    res.setHeader("Content-Type", "text/css");
+				else if (xten == 'js')
+				    res.setHeader("Content-Type", "text/javascript");
 				else
 				    res.setHeader("Content-Type", "text/plain");    
 				res.end(data)
