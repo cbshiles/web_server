@@ -26,19 +26,17 @@ function loadDomain(path){
 		  toolz.stdMethods)
     }
 
-    var subDir = path+'subs/'
-    if (fs.existsSync(subDir)){ //load sub dir if exists
-	var subs = fs.readdirSync(subDir)
-	for (var i=0; i<subs.length; i++)
-	    dom.subs[subs[i]] = loadDomain(subDir+subs[i]+'/')
-    }
-
     dom.route = function(req, res){
+
 	if (req.url.length > 1){ //redirect to sub domain
-	    var subDom = dom.subs[req.url.pop()]
-	    if (typeof subDom == 'undefined') 
+
+	    var subDir = path+'subs/'+req.url.pop()+'/'
+	    if (fs.existsSync(subDir)){ //load sub dir if exists
+		var subDom = loadDomain(subDir)
+		subDom.route(req, res)
+	    } else {
 		res.end("Out of bounds")
-	    else subDom.route(req, res)
+	    }
 	} else { // actually load a page
 
 	    req.url = [path, req.url[0]]
