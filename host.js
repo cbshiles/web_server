@@ -12,6 +12,11 @@ function logg(data){
     console.log(data + ' :~: ' + new Date().toISOString())
 }
 
+function requireUncached(module){
+    delete require.cache[require.resolve(module)]
+    return require(module)
+}
+
 /*
  * Recursive function to load a 'domain'.
  * Can be called on root domain of website, and all subs will be loaded.
@@ -22,7 +27,7 @@ function loadDomain(path){
     var dom = {
 	subs: {},
 	methods: (ownResponder ?
-		  require(path+'responder.js').methods :
+		  requireUncached(path+'responder.js').methods :
 		  toolz.stdMethods)
     }
 
