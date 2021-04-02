@@ -1,8 +1,20 @@
 #!/usr/local/bin/perl
 
-my $svrDir = '/home/brenan/web_server';
-my $webDir = '/home/brenan/community_site';
+my $svrDir = '/home/bob/web_server';
+my %webDirs = (
+    '/home/bob/community_site' => 4200,
+    '/home/bob/paul_site' => 4206
+);
+
+
+# NOTE! This kills all node instances on the server
+# Not good if you're running non-Bob node servers
 my $cmd = 'kill `pgrep node`';
 my $r = `$cmd`;
-`nohup node $svrDir/host.js $webDir/ >> $svrDir/logs/nohup.out&`;
+
+foreach(keys %webDirs){
+    $port = $webDirs{$_};
+    `nohup node $svrDir/host.js $_/ $port >> $svrDir/logs/nohup.out&`;
+}
+
 print "Started.\n";
